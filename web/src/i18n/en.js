@@ -37,6 +37,12 @@ export default {
         en: 'English',
         notify_status: 'Notify Status',
         selectMerchant: 'Select Merchant',
+        none: 'None',
+        noRemark: 'No Remark',
+        notifyUrl: 'Notify URL',
+        createdAt: 'Created At',
+        updatedAt: 'Updated At',
+        deletedAt: 'Deleted At',
 
     },
     login: {

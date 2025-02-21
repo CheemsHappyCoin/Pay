@@ -26,7 +26,14 @@ export default {
         zh: '中文',
         en: '英文',
         notify_status: '通知状态',
-        selectMerchant: '选择商户'
+        selectMerchant: '选择商户',
+        close: '关闭',
+        none: '无',
+        noRemark: '无备注',
+        actions: '操作',
+        details: '详情',
+        createdAt: '创建时间',
+
     },
     login: {
         title: '欢迎回来 👋',
