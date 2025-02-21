@@ -69,8 +69,8 @@
                     <el-tag :type="statusTagType(currentOrder?.status)"> {{ statusText(currentOrder?.status) }}
                     </el-tag>
                 </el-descriptions-item>
-                <el-descriptions-item :label="t('order.callbackUrl')" :span="2">
-                    <el-text type="info">{{ currentOrder?.callback_url || t('common.none') }}</el-text>
+                <el-descriptions-item :label="t('order.NotifyUrl')" :span="2">
+                    <el-text type="info">{{ currentOrder?.notify_url || t('common.none') }}</el-text>
                 </el-descriptions-item>
                 <el-descriptions-item :label="t('order.createdAt')"> {{ formatTime(currentOrder?.created_at) }}
                 </el-descriptions-item>

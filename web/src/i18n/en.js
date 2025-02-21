@@ -69,6 +69,7 @@ export default {
         merchantOrderNo: 'Merchant Order No.',
         currentStatus: 'Current Status',
         callbackUrl: 'Callback URL',
+        notifyUrl: 'Notify URL',
         updatedAt: 'Last Updated',
         deletedAt: 'Deleted At',
         paymentOrder: 'Payment Order',

@@ -57,6 +57,7 @@ export default {
         merchantOrderNo: '商户订单号',
         currentStatus: '当前状态',
         callbackUrl: '回调地址',
+        notifyUrl: '通知地址',
         updatedAt: '最后更新时间',
         deletedAt: '删除时间',
         paymentOrder: '支付订单',
