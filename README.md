@@ -3,17 +3,26 @@
 [![GitHub License](https://img.shields.io/github/license/CheemsHappyCoin/Pay)](https://github.com/CheemsHappyCoin/Pay/blob/main/LICENSE)
 [![Web3 Ready](https://img.shields.io/badge/web3-ready-blue.svg)](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump)
 
-An open-source Web3 third-party payment system that provides secure and reliable payment solutions for decentralized applications. Developed by the [CheemsHappy](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump) community.
+![image](./assets/pay.png)
+
+Cheems just wants you to be happy and spread happiness around the world.
+
+CheemsHappyPay is an open-source Web3 third-party payment system that provides secure and reliable payment solutions for decentralized applications. It allows user systems to create orders, redirect to the payment page, and invoke the web3 wallet to pay. After successful payment, cheemshappy pay will confirm the payment status based on the order number and blockchain hash, and finally notify the user system.
+
+CheemsHappyPay is developed by the [CheemsHappy](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump) community.
 
 ```
-A meme created to celebrate the joyful spirit of Cheems. Cheems just wants you to be happy and spread happiness around the world.
+A meme created to celebrate the joyful spirit of Cheems.
+
+
+Cheems just wants you to be happy and spread happiness around the world.
 ```
 
 We build on [pump.fun](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump)
 
 # Social Media
 
-If you want to sponsor CheemsHappy, please join [TG - cheemshappy](https://t.me/+j7uij-U90lAyMzM1)
+if you want to join the community, please join [TG - cheemshappy](https://t.me/+j7uij-U90lAyMzM1)
 
 If you want to follow CheemsHappy, please join [X - cheemshappycoin](https://x.com/CheemsHappyCoin)
 

@@ -3,17 +3,28 @@
 [![GitHub License](https://img.shields.io/github/license/CheemsHappyCoin/Pay)](https://github.com/CheemsHappyCoin/Pay/blob/main/LICENSE)
 [![Web3 Ready](https://img.shields.io/badge/web3-ready-blue.svg)](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump)
 
-开源的 Web3 第三方支付系统，为去中心化应用提供安全可靠的支付解决方案。由 [CheemsHappy](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump) 社区驱动开发。
+![image](./assets/pay.png)
+
+CheemsHappyCoin 是一个基于 Cheems 的社区，旨在庆祝 Cheems 的快乐精神。
+
+Cheems 只想让你快乐，并传播快乐。
+
+CheemsHappyPay 是一个开源的 Web3 第三方支付系统，为去中心化应用提供安全可靠的支付解决方案。支持用户系统创建订单后，跳转支付页面，唤起 web3 钱包进行支付，支付成功后，cheemshappy pay 会根据订单号和链上哈希确认支付状态，最终通知用户系统。
+
+CheemsHappyPay 由 [CheemsHappy](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump) 社区驱动开发。
 
 ```
-A meme created to celebrate the joyful spirit of Cheems. Cheems just wants you to be happy and spread happiness around the world.
+A meme created to celebrate the joyful spirit of Cheems.
+
+
+Cheems just wants you to be happy and spread happiness around the world.
 ```
 
 we build on [pump.fun](https://pump.fun/coin/GshQsatxGANKbR4HAZE96HruyqoVvHnsktJWWLzXpump)
 
 # Social Media
 
-如果你想赞助 cheemshappy，请加入[TG - cheemshappy](https://t.me/+j7uij-U90lAyMzM1)
+如果你想加入社区，请加入[TG - cheemshappy](https://t.me/+j7uij-U90lAyMzM1)
 
 如果你想关注 cheemshappy，请加入[X - cheemshappycoin](https://x.com/CheemsHappyCoin)
 
