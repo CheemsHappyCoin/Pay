@@ -72,7 +72,13 @@ export default {
         targetNetwork: '目标网络',
         paymentSuccess: '支付成功！',
         autoRedirect: '秒后自动跳转至商户页面',
-        jumpNow: '立即跳转'
+        jumpNow: '立即跳转',
+        orderId: '订单ID',
+        merchantId: '商户ID',
+        systemOrderNo: '系统订单号',
+        merchantOrderNo: '商户订单号',
+        amount: '金额',
+        coin: '币种'
     },
     status: {
         success: 'success',

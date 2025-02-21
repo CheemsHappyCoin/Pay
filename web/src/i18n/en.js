@@ -82,7 +82,13 @@ export default {
         targetNetwork: 'Target Network',
         paymentSuccess: 'Payment Successful!',
         autoRedirect: 'seconds auto redirect to merchant page',
-        jumpNow: 'Jump Now'
+        jumpNow: 'Jump Now',
+        orderId: 'Order ID',
+        merchantId: 'Merchant ID',
+        systemOrderNo: 'System Order No.',
+        merchantOrderNo: 'Merchant Order No.',
+        amount: 'Amount',
+        coin: 'Coin',
     },
     status: {
         success: 'success',
