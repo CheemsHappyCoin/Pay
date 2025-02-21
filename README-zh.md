@@ -228,3 +228,7 @@ AC: 0x888f1AD00aE63f7257e9B76Cc5a88C288b6911a3
 ## License
 
 本项目使用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=CheemsHappyCoin/Pay&type=Date)](https://star-history.com/#CheemsHappyCoin/Pay&Date)
