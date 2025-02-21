@@ -26,6 +26,10 @@ if you want to join the community, please join [TG - cheemshappy](https://t.me/+
 
 If you want to follow CheemsHappy, please join [X - cheemshappycoin](https://x.com/CheemsHappyCoin)
 
+if you want to experience or sponsor us, you can visit the following address
+
+https://pay.cheemshappy.com/#/cheems/happy/pay/create
+
 ## Features ✨
 
 ### Core Features

@@ -28,6 +28,10 @@ we build on [pump.fun](https://pump.fun/coin/DWYoXT4rMoj6VbMScrWQrRWzDhgf1BcRxDK
 
 如果你想关注 cheemshappy，请加入[X - cheemshappycoin](https://x.com/CheemsHappyCoin)
 
+如果你想体验或者赞助我们，可以访问以下地址
+
+https://pay.cheemshappy.com/#/cheems/happy/pay/create
+
 ## 功能特性 ✨
 
 ### 核心功能
