@@ -249,3 +249,22 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CheemsHappyCoin/Pay&type=Date)](https://star-history.com/#CheemsHappyCoin/Pay&Date)
+
+## Roadmap 🗺️
+
+🚀 **核心**
+
+- [x] Multi-chain payment support (EVM, Tron, Solana)
+- [x] Basic merchant management system
+- [x] Merchant wallet management
+- [x] Order management
+- [x] Payment callback
+- [x] Transaction status monitoring
+- [x] Transaction data statistics
+
+## Future Development
+
+- [ ] Add multi-wallet, multi-chain support
+- [ ] Add merchant fee support
+
+> Please follow our [Twitter](https://x.com/CheemsHappyCoin) for the latest updates.

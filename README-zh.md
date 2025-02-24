@@ -251,3 +251,22 @@ AC: 0x888f1AD00aE63f7257e9B76Cc5a88C288b6911a3
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CheemsHappyCoin/Pay&type=Date)](https://star-history.com/#CheemsHappyCoin/Pay&Date)
+
+## 发展路线图 🗺️
+
+🚀 **核心**
+
+- [x] 多链支付支持（EVM、波场、Solana）
+- [x] 基础商户管理系统
+- [x] 商户钱包管理
+- [x] 订单管理
+- [x] 支付回调
+- [x] 交易状态监控
+- [x] 交易数据统计
+
+## 未来发展
+
+- [ ] 添加多钱包、多链支持
+- [ ] 添加商户费率支持
+
+> 持续关注更新！请关注我们的[Twitter](https://x.com/CheemsHappyCoin)获取最新动态。
