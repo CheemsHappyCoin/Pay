@@ -14,7 +14,7 @@ func Test_db(t *testing.T) {
 		Mode:    gen.WithoutContext | gen.WithDefaultQuery | gen.WithQueryInterface, // generate mode
 	})
 
-	gormdb, _ := gorm.Open(mysql.Open("root:jimbir8520@(192.168.123.140:7002)/9cpay?charset=utf8mb4&parseTime=True&loc=Local"))
+	gormdb, _ := gorm.Open(mysql.Open("root:xxxxx@(192.168.123.140:7002)/cheemspay?charset=utf8mb4&parseTime=True&loc=Local"))
 	g.UseDB(gormdb) // reuse your gorm db
 
 	// Generate basic type-safe DAO API for struct `model.User` following conventions
