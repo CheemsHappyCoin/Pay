@@ -76,6 +76,10 @@ https://pay.cheemshappy.com/#/cheems/happy/pay/create
 
 ### 安装步骤
 
+## 建表语句
+
+`cheemshappypay.sql`
+
 ```
 git clone https://github.com/CheemsHappyCoin/Pay.git
 cd Pay

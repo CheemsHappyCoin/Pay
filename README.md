@@ -74,6 +74,10 @@ https://pay.cheemshappy.com/#/cheems/happy/pay/create
 
 ### Installation Steps
 
+## DB Table
+
+`cheemshappypay.sql`
+
 ```
 git clone https://github.com/CheemsHappyCoin/Pay.git
 cd Pay
