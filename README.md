@@ -252,7 +252,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Roadmap 🗺️
 
-🚀 **核心**
+🚀 **Core**
 
 - [x] Multi-chain payment support (EVM, Tron, Solana)
 - [x] Basic merchant management system
