@@ -89,6 +89,26 @@ func (h *UserHandler) IsLogin(ctx *gin.Context) {
 	v1.HandleSuccess(ctx, true)
 }
 
+func (h *UserHandler) UpdateUserInfo(ctx *gin.Context) {
+	userId := GetUserIdFromCtx(ctx)
+	if userId == "" {
+		v1.HandleError(ctx, http.StatusUnauthorized, v1.ErrUnauthorized, nil)
+		return
+	}
+	var req v1.RegisterRequest
+	err := ctx.BindJSON(&req)
+	if err != nil {
+		v1.HandleError(ctx, http.StatusBadRequest, err, nil)
+		return
+	}
+	err = h.userService.UpdateUserInfo(ctx, userId, &req)
+	if err != nil {
+		v1.HandleError(ctx, http.StatusInternalServerError, err, nil)
+		return
+	}
+	v1.HandleSuccess(ctx, nil)
+}
+
 func getClientIP(r *http.Request) string {
 	// Try Forwarded header (RFC 7239 standard)
 	if forwarded := r.Header.Get("Forwarded"); forwarded != "" {

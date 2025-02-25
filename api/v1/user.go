@@ -4,7 +4,7 @@ type RegisterRequest struct {
 	Email      string `json:"email" binding:"required,email" example:"1234@gmail.com"`
 	Nickname   string `json:"nickname" example:"alan"`
 	Password   string `json:"password" binding:"required" example:"123456"`
-	RePassword string `json:"re_password" binding:"required" example:"123456"`
+	RePassword string `json:"re_password"  example:"123456"`
 }
 
 type LoginRequest struct {
@@ -29,6 +29,7 @@ type UpdateProfileRequest struct {
 }
 type GetProfileResponseData struct {
 	UserId       string `json:"userId"`
+	Email        string `json:"email" example:"1234@gmail.com"`
 	Nickname     string `json:"nickname" example:"alan"`
 	Avatar       string `json:"avatar"`
 	Introduction string `json:"introduction"`

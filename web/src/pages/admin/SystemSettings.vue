@@ -11,6 +11,10 @@
                         <i class="el-icon-setting"></i>
                         <span>{{ t('otherSettings.otherSettings') }}</span>
                     </el-menu-item>
+                    <el-menu-item index="/admin/system-settings/user-settings">
+                        <i class="el-icon-setting"></i>
+                        <span>{{ t('userSettings.userSettings') }}</span>
+                    </el-menu-item>
                 </el-menu>
             </div>
         </el-card>

@@ -238,6 +238,18 @@ export default {
         orderExpired: 'This order may have been paid or expired',
         connectFailed: 'Wallet Connection Failed',
         paymentFailed: 'Payment Failed'
+    },
+    userSettings: {
+        userSettings: 'User Settings',
+        email: 'Email',
+        currentPassword: 'Current Pwd',
+        newPassword: 'New Password',
+        confirmPassword: 'Confirm Pwd',
+        saveChanges: 'Save Changes',
+        emailPlaceholder: 'Please enter new email',
+        currentPasswordPlaceholder: 'Please enter current password',
+        newPasswordPlaceholder: 'Please enter new password (at least 8 characters)',
+        confirmPasswordPlaceholder: 'Please enter new password again'
     }
     // 其他翻译项...
 } 

@@ -21,6 +21,7 @@ type UserService interface {
 	UpdateProfile(ctx context.Context, userId string, req *v1.UpdateProfileRequest) error
 	GetUserInfo(ctx context.Context, userId string) (*model.User, error)
 	GetUserToken(ctx context.Context, key string) (string, error)
+	UpdateUserInfo(ctx context.Context, userId string, req *v1.RegisterRequest) error
 }
 
 func NewUserService(service *Service, userRepo repository.UserRepository, client *req.Client) UserService {
@@ -123,6 +124,7 @@ func (s *userService) GetProfile(ctx context.Context, userId string) (*v1.GetPro
 	}
 
 	return &v1.GetProfileResponseData{
+		Email:        user.Email,
 		UserId:       user.UserID,
 		Nickname:     user.Nickname,
 		Avatar:       user.Avatar,
@@ -181,4 +183,28 @@ func (s *userService) GetUserToken(ctx context.Context, key string) (string, err
 		return "", err
 	}
 	return us, nil
+}
+
+func (s *userService) UpdateUserInfo(ctx context.Context, userId string, req *v1.RegisterRequest) error {
+	user, err := s.userRepo.GetByID(ctx, userId)
+	if err != nil {
+		return err
+	}
+	user.Email = req.Email
+	if req.Password == "" {
+		return v1.ErrRePasswd
+	}
+	if req.Email == "" {
+		return v1.ErrRePasswd
+	}
+	err = bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(req.Password))
+	if err != nil {
+		return err
+	}
+	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(req.RePassword), bcrypt.DefaultCost)
+	if err != nil {
+		return err
+	}
+	user.Password = string(hashedPassword)
+	return s.userRepo.UpdateUserInfo(ctx, user)
 }

@@ -20,6 +20,7 @@ type UserRepository interface {
 	GetByEmail(ctx context.Context, email string) (*model.User, error)
 	SetUserToken(ctx context.Context, key string, token string) error
 	GetUserToken(ctx context.Context, key string) (string, error)
+	UpdateUserInfo(ctx context.Context, user *model.User) error
 }
 
 func NewUserRepository(r *Repository, client *req.Client) UserRepository {
@@ -107,4 +108,13 @@ func (r *userRepository) GetByEmail(ctx context.Context, email string) (*model.U
 		return nil, err
 	}
 	return &user, nil
+}
+
+func (r *userRepository) UpdateUserInfo(ctx context.Context, user *model.User) error {
+	tx := newUser(r.DB(ctx))
+	_, err := tx.Where(tx.UserID.Eq(user.UserID)).Updates(user)
+	if err != nil && !errors.Is(err, gorm.ErrRecordNotFound) {
+		return err
+	}
+	return nil
 }

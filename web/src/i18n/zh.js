@@ -219,6 +219,17 @@ export default {
         orderExpired: '该订单可能已完成支付或超过有效期',
         connectFailed: '钱包连接失败',
         paymentFailed: '支付失败'
+    },
+    userSettings: {
+        userSettings: '用户设置',
+        email: '邮箱',
+        currentPassword: '当前密码',
+        newPassword: '新密码',
+        confirmPassword: '确认密码',
+        saveChanges: '保存更改',
+        emailPlaceholder: '请输入新邮箱',
+        currentPasswordPlaceholder: '请输入当前密码',
+        newPasswordPlaceholder: '请输入新密码（至少8位）',
+        confirmPasswordPlaceholder: '请再次输入新密码'
     }
-    // 其他翻译项...
 } 

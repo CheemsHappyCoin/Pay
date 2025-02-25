@@ -42,6 +42,11 @@ const routes = [
                         component: () => import('../pages/admin/settings/SysWalletSettings.vue')
                     },
                     {
+                        path: 'user-settings',
+                        name: 'userSettings',
+                        component: () => import('../pages/admin/settings/UserSettings.vue')
+                    },
+                    {
                         path: 'other-settings',
                         name: 'otherSettings',
                         component: () => import('../pages/admin/settings/OtherSettings.vue')

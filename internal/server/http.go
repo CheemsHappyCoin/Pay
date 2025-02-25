@@ -61,7 +61,8 @@ func NewHTTPServer(
 
 		strictAuthRouter := v1.Group("/user").Use(middleware.StrictAuth(jwt, logger), middleware.AdminOnly())
 		{
-			strictAuthRouter.POST("/profile", userHandler.UpdateProfile)
+			strictAuthRouter.GET("/profile", userHandler.GetProfile)
+			strictAuthRouter.POST("/update", userHandler.UpdateUserInfo)
 		}
 
 		merAuthRouter := v1.Group("/merchants").Use(middleware.StrictAuth(jwt, logger), middleware.AdminOnly())
