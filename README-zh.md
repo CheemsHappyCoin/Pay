@@ -76,7 +76,7 @@ https://pay.cheemshappy.com/#/cheems/happy/pay/create
 
 ### 安装步骤
 
-## 建表语句
+#### 建表语句
 
 `cheemshappypay.sql`
 
@@ -148,6 +148,13 @@ rpc_endpoints:
   "SOL": "https://api.mainnet-beta.solana.com"
   "SOLT": "https://api.testnet.solana.com"
 
+```
+
+#### 管理员
+
+```
+user: ch@cheemshappy.com
+password: cheemshappy.com
 ```
 
 ### 系统说明

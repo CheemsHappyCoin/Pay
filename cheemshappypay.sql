@@ -150,6 +150,7 @@ CREATE TABLE `user` (
   KEY `idx_users_deleted_at` (`deleted_at`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=174 DEFAULT CHARSET=utf8mb4;
 
+INSERT INTO `user` (`id`, `user_type`, `user_id`, `nickname`, `avatar`, `introduction`, `password`, `email`, `phone`, `login_at`, `created_at`, `updated_at`, `deleted_at`) VALUES (1, 'admin', '123456', '123', '1', NULL, '$2a$10$1DpQrC8M8iL7tOI3JFan7eu4Is7XgUdIXEy6zKK/wV8I3VzMqVgJe', 'ch@cheemshappy.com', NULL, '2025-02-18 06:14:40.264', NULL, '2025-02-25 16:43:53.518', NULL);
 -- ----------------------------
 -- Table structure for wallet
 -- ----------------------------

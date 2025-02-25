@@ -74,7 +74,7 @@ https://pay.cheemshappy.com/#/cheems/happy/pay/create
 
 ### Installation Steps
 
-## DB Table
+#### DB Table
 
 `cheemshappypay.sql`
 
@@ -146,6 +146,13 @@ rpc_endpoints:
   "SOL": "https://api.mainnet-beta.solana.com"
   "SOLT": "https://api.testnet.solana.com"
 
+```
+
+### Admin
+
+```
+user: ch@cheemshappy.com
+password: cheemshappy.com
 ```
 
 ### System Description
