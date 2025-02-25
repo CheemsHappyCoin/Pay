@@ -152,7 +152,7 @@ rpc_endpoints:
 
 ```
 user: ch@cheemshappy.com
-password: cheemshappy.com
+password: Cheemshappy.com
 ```
 
 ### System Description
